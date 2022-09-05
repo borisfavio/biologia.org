@@ -7,7 +7,7 @@
 
 body{
     height: 100vh;
-    background-image: url('../fondoPrincipal.jpg');
+    background-image: url('../paisaje_fondo1.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,4 +50,7 @@ body{
 }
 .formulario button:hover{
     background-color: #3f51b5;
+}
+#llama{
+    margin-top: -100px;
 }

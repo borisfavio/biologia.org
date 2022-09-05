@@ -5,7 +5,7 @@ $user = $_POST['usuario'];
 $psw = $_POST['clave'];
 $psw = md5(123);
 //guardausuario
-$q = "INSERT INTO `appBi`.`usuarios` (`nombre`, `pass`, `id_pokemon`, `nivel`) 
+$q = "INSERT INTO `usuarios` (`nombre`, `pass`, `id_pokemon`, `nivel`) 
         VALUES ('$user', md5('123'), '0', '2');
 ";
 $re = mysqli_query($conn, $q) or die(mysqli_error($conn));

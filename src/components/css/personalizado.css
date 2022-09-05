@@ -1,8 +1,8 @@
 .pd-1{
     margin: 15px !important;
-    background: rgba(16, 135, 16, 0.6) !important;
+    background: rgba(12, 78, 202, 0.488) !important;
     border-radius: 10px !important;
-
+    color: aliceblue;
 }
 
 .collection{
@@ -31,18 +31,61 @@ h1{
     
 }
 
-.casilla{
-   background-color: rgba(33, 38, 33, 0.6) !important;
-    border-radius: 20px;
-    border-color: greenyellow;
-    border-style: solid ;
-    height: 20vh;
-    
-}
+/*Color de tarjetas margen azul*/
+
 .tit{
     color: greenyellow;
     font-size: 20px;
 }
 .tablero{
     margin-top: 5%;
+}
+
+
+.contenedor-poke {
+    border-radius: 50%;
+    background-color: rgba(0, 153, 255,0,5);
+
+}
+
+.casilla {
+    background-color: rgba(33, 38, 33, 0.6) !important;
+    border-radius: 20px;
+    border-color: rgba(19, 95, 226, 0.973);
+    border-style: solid;
+   }
+
+.tit {
+    color: rgb(0, 213, 255);
+    font-size: 25px;
+    width: auto;
+    
+}
+.tit2 {
+    color: wheat;
+    font-size: 25px;
+    width: auto;
+}
+
+.tablero {
+    height: 150px !important;
+    margin-top: 5%;
+    
+}
+.tabla-puntaje{
+    height: 300px;
+    overflow-x:hidden;
+    
+}
+.container-fluid.section.indigo.darken-4 {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+.sidenav-overlay {
+    z-index: 0 !important;
+  }
+.cuerpo{
+    margin-top: 100px !important;
 }

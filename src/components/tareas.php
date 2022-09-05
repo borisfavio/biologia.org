@@ -10,8 +10,8 @@
 <?php
 include('header.php');
 ?>
-<div class="container center">
-    <h1>Misiones</h1>
+<div class="container center cuerpo">
+    <h1 class="indigo-text">Misiones</h1>
     <div class="row">
     <div class="col s12 l6">
         <div class="tareas">

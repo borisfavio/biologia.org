@@ -48,7 +48,7 @@ include('../settings/conexio.php');
                             <img width="150px" src="<?=$row['ruta']?>" alt="">
                         </a>
                         <div class="desc">
-                            DEscr
+                            <?=$row['descripcion']?>
                         </div>
                     </div>
                     </div>

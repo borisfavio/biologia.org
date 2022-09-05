@@ -11,16 +11,17 @@
     <?php
     include('header.php');
     ?>
-<div class="main">
-    <div style="margin-top: 50px;" class="container">
-    <video width="90%" controls>
-  <source src="videos/craneo.mp4" type="video/mp4">
-  
-  Your browser does not support HTML video.
-</video>
-    </div>
-</div>
+    <div class="main cuerpo">
+        <div style="margin-top: 50px;" class="container">
+            <video width="90%" controls>
+                <source src="videos/craneo.mp4" type="video/mp4">
 
-<?php
+                Your browser does not support HTML video.
+            </video>
+        </div>
+        
+    </div>
+
+    <?php
     include('footer.php');
     ?>
