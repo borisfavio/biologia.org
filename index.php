@@ -1,3 +1,3 @@
 <?php
-header("Location: src/components/login.php");
+header("Location: src/components/inicio.php");
 ?>

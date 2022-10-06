@@ -62,7 +62,7 @@
             
         }
     </script>
-    <div id="body"></div>
+    <div style="margin-top: 120px;" id="body"></div>
 
 
     <?php

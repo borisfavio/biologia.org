@@ -24,7 +24,7 @@
             <li>
                 <div class="user-view">
                     <div class="background">
-                        <img src="img/bosque.webp">
+                        <img src="img/back.png">
                     </div>
                     <a href="#user"><img class="circle" src="<?= $_SESSION['poke'] ?>"></a>
                     <a href="#name"><span class="white-text name"><?= $_SESSION['nombre'] ?></span></a>
